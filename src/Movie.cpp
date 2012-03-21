@@ -19,8 +19,7 @@ double Movie::getCharge(int daysRented) const {
 int Movie::getPoints(int daysRented) const
 {
 	int points = 1;
-	if(getType() == NEW_RELEASE_MOVIE &&
-		daysRented > 1)
+	if(getType() == NEW_RELEASE_MOVIE && daysRented > 1)
 		points ++;
 	return points;
 }

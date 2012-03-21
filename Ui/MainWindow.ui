@@ -60,8 +60,8 @@
   </widget>
   <action name="actionAddCustomer">
    <property name="icon">
-    <iconset>
-     <normaloff>:/Images/AddUser.png</normaloff>:/Images/AddUser.png</iconset>
+    <iconset resource="Resource.qrc">
+     <normaloff>:/images/AddUser.png</normaloff>:/images/AddUser.png</iconset>
    </property>
    <property name="text">
     <string>Add Customer</string>
