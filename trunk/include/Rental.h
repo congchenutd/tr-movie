@@ -4,7 +4,7 @@
 class Movie;
 
 // An association class
-class Rental  
+class Rental
 {
 public:
 	Rental(Movie* m, int days);
