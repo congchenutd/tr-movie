@@ -18,7 +18,7 @@ public:
 	double getTotalAmount() const;
 	double getTotalPoints() const;
 
-	// come commentsasdfadsf
+	// come commentsasdfadsfadsf
 	QString getStatement() const;
 
 private:
