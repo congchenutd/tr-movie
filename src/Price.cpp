@@ -12,6 +12,7 @@ Movie::MovieType ChildrenPrice::getType() const {
 	return Movie::CHILDREN_MOVIE;
 }
 
+//
 double RegularPrice::getCharge(int daysRented) const
 {
 	double result = 2.0;
