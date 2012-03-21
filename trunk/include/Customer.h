@@ -5,7 +5,7 @@
 #include <QList>
 #include "Rental.h"
 
-class Customer  
+class Customer
 {
 public:
 	Customer(const QString& n);
@@ -17,7 +17,8 @@ public:
 
 	double getTotalAmount() const;
 	double getTotalPoints() const;
-	
+
+	// come comments
 	QString getStatement() const;
 
 private:
